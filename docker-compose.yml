@@ -34,7 +34,6 @@ services:
       - "${SPRING_APP_PORT}:80" 
     networks: 
       - dwcs
-    restart: unless-stopped 
 
 # Volúmenes para persistencia de datos
 volumes: 
